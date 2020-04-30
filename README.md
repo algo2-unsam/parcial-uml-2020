@@ -16,7 +16,12 @@ Dada la siguiente solución se pide que
 
 Para ello recomendamos la lectura del material [Guías para comunicar un diseño](https://docs.google.com/document/d/1HGdGdDG7RAhL5j45UOFGK3F5sV2-rKHVHmPoYawHS5Y/edit?usp=sharing).
 
-Los diagramas los pueden hacer con [Draw](draw.io) en google drive, y luego bajarlos localmente, o bien pueden hacerlos a mano alzada y escanearlos o sacarles una foto. El archivo lo suben a este repo y luego lo pushean.
+Los diagramas los pueden hacer con cualquier herramienta que quieran, les proponemos dos opciones:
+
+- [Draw](draw.io) en google drive, y luego bajarlos localmente, 
+- o bien pueden hacerlos a mano alzada y escanearlos o sacarles una foto.
+
+El archivo con la solución debe ser subido al repositorio github.
 
 Como paso adicional deben ingresar al [Campus Virtual ECyT](http://campusvirtualecyt.unsam.edu.ar/) y subir la misma solución a la tarea "Parcial comunicación del Diseño".
 
