@@ -12,13 +12,13 @@ Dada la siguiente solución se pide que
 - comunique el diagrama de secuencia para el caso de uso “Ganó Apuesta”, donde
   - un jugador que apostó pleno y ganó (salió el 25)
   - un jugador que hizo apuesta múltiple y no ganó (invente ud. el ejemplo)
-- indique qué patrones de diseño reconoce, justifique su decisión.
+- indique qué patrones de diseño reconoce, justifique su decisión (preferentemente usar formato Markdown .md, o bien txt, o bien pdf)
 
 Para ello recomendamos la lectura del material [Guías para comunicar un diseño](https://docs.google.com/document/d/1HGdGdDG7RAhL5j45UOFGK3F5sV2-rKHVHmPoYawHS5Y/edit?usp=sharing).
 
 Los diagramas los pueden hacer con cualquier herramienta que quieran, les proponemos dos opciones:
 
-- [Draw](draw.io) en google drive, y luego bajarlos localmente, 
+- [Draw](draw.io) en google drive, y luego bajar cada gráfico localmente a un archivo png/jpg, 
 - o bien pueden hacerlos a mano alzada y escanearlos o sacarles una foto.
 
 El archivo con la solución debe ser subido al repositorio github.
@@ -75,7 +75,7 @@ class ApuestaMultiple extends Apuesta {
 
 
   override ganadora() {
-  return apuestas.all [ apuesta | apuesta.ganadora()
+    return apuestas.all [ apuesta | apuesta.ganadora() ]
   }
 
   override efectoMultiplicador() {
