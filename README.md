@@ -44,11 +44,11 @@ class Jugador {
   }
 }
 
-class Apuesta {
+abstract class Apuesta {
   int numeroGanador
   int montoApostado
 
-  def boolean ganadora()
+  abstract def boolean ganadora()
 
   def int montoRecompensa() { 
     return montoApostado * this.efectoMultiplicador()) 
